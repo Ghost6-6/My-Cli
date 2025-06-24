@@ -1,19 +1,23 @@
 {
-  "name": "my-cli",
-  "version": "1.0.0",
-  "description": "一个自定义的脚手架工具",
-  "main": "lib/index.js",
+  "name": "@ghost_x/frontend-cli",
+  "version": "1.0.1",
+  "description": "一个用于快速创建前端项目的命令行工具",
+  "main": "bin/index.js",
   "bin": {
-    "my-cli": "./bin/index.js"
+    "ghost-cli": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "cli",
-    "scaffold"
+    "frontend",
+    "scaffold",
+    "vue",
+    "react",
+    "template"
   ],
-  "author": "",
+  "author": "Ghost6-6",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
@@ -23,5 +27,16 @@
     "handlebars": "^4.7.8",
     "inquirer": "^8.2.5",
     "ora": "^5.4.1"
-  }
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghost6-6/My-Cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ghost6-6/My-Cli/issues"
+  },
+  "homepage": "https://github.com/Ghost6-6/My-Cli#readme"
 }
