@@ -1,0 +1,91 @@
+.app {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-header {
+  margin-bottom: 40px;
+}
+
+.app-logo {
+  height: 100px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: app-logo-spin infinite 20s linear;
+  }
+}
+
+.app-nav {
+  padding: 20px 0;
+}
+
+.app-nav a {
+  font-weight: bold;
+  color: #282c34;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.app-nav a.active {
+  color: #61dafb;
+}
+
+.app-content {
+  margin-top: 40px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.feature {
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+  color: #61dafb;
+}
+
+.getting-started {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.about-page {
+  padding: 20px;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.author {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
